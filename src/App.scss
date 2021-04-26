@@ -1,0 +1,33 @@
+body {
+  background-color: #282c34;
+}
+
+.header {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0;
+  height: 48px;
+}
+
+.top-container {
+  min-height: 100vh;
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  div {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5 {
+      margin: 8px 0;
+    }
+  }
+}
+
+
